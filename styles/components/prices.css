@@ -13,6 +13,7 @@
         width: 768px;
         padding: 40px 50px 88.02px 50px;
         gap: 40px;
+        margin: auto;
     }
 }
 
@@ -20,11 +21,11 @@
     .prices {
         display: flex;
         width: 382px;
-        /* height: 512px; */
         padding: 25px 0 40px 0;
         flex-wrap: wrap;
         justify-content: center;
         align-content: flex-start;
+        margin: auto;
         }
 }
 
@@ -219,11 +220,11 @@
     }
 }
 
-.prices-text .contact-button:active {
+.prices-text .contact-button:hover {
     font-weight: 400;
     background-color: var(--color-secondary);
     color: var(--color-white);
-    transition: all 0.1s;
+    transition: all 0.3s ease-in-out;
 }
 
 .prices-text img {

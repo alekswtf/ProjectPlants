@@ -104,11 +104,11 @@
     }
 }
 
-.service-button:active {
+.service-button:hover {
     font-weight: 400;
     background-color: var(--color-secondary);
     color: var(--color-white);
-    transition: all 0.01s;
+    transition: all 0.3s ease-in-out;
 }
 
 .service-card-container {

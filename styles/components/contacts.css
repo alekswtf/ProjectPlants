@@ -12,6 +12,7 @@
         width: 768px;
         height: 739px;
         padding: 0;
+        margin: auto;
         flex-direction: column-reverse;
         align-items: center;
     }
@@ -22,6 +23,7 @@
         width: 384px;
         height: 445px;
         padding: 0;
+        margin: auto;
         flex-direction: column-reverse;
         align-items: center;
         justify-content: space-between;
