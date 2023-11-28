@@ -69,14 +69,14 @@
     display: flex;
     width: 450px;
     height: 50px;
-    margin-top: 153px;
+    /* margin-top: 153px; */
 } 
 
 @media (max-width: 1240px) {
     .button-contacts {
         display: flex;
         position: absolute;
-        margin: 0px 159px 498px 159px;
+        margin-top: 159px;
     }
 }
 
@@ -88,6 +88,16 @@
         position: relative;
     }
 }
+
+.dropdown-label {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 50px;
+    margin-top: 153px;
+}
+
 
 .button-contacts .btn-contact {
     display: flex;
@@ -133,5 +143,51 @@
     }
 }
 
+.dropdown-options {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
 
+.dropdown-options.open {
+    grid-template-rows: 1fr;
+    
+}
 
+.dropdown-options-inner {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer ;
+    background: #DCE9D9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    width: 450px;
+    font-family: var(--font-regular);
+    color: var(--color-primary);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.8px;
+    padding: 0 17.5px 0 20px;
+    margin-top: 37px;
+}
+
+@media (max-width: 1240px) {
+    .dropdown-options-inner {
+        margin-top: 199px;
+    }
+}
+
+@media (max-width: 767px) {
+    .dropdown-options-inner {
+        margin: 0 75px;
+        width: 300px;
+
+    }
+}
