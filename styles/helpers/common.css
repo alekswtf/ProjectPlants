@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    
+     font-size: 16px;
+     font-family: var(--font-regular);
+
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+
